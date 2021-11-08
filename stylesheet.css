@@ -78,36 +78,20 @@
 .project-flex{
     display: flex;
     justify-content: space-evenly;
-    height: 200px;
-    width: 100%;
-    margin: 5px;
+    margin-top: 20px;
 }
-.project-item{
+.items{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
     border: 1px solid black;
-    box-shadow: 10px 10px 20px;
-    border-radius: 50px;
-    height: 100px;
-    width: 100px;
-    margin: 15px;
-    transition: width .4s, height .4s;
+    height: 250px;
+    width: 30%;
+    margin: auto;
+    background-image: url(images/tic-tac-toee.png);
+    background-size: 100%;
 }
-.project-item:hover{
-    height: 150px;
-    width: 150px;
-    border-radius: 80px;
-}
-.item1{
-    height: 100px;
-    width: 100px;
-    transition: width .4s, height .4s;
-}
-.item1:hover{
-    height: 150px;
-    width: 150px;
-    transition: width .4s, height .4s;
-}
-.project-description{
-    text-align: center;
-    font-size: 15px;
-    margin-top: 5px;
+.items:hover{
+    background-image: linear-gradient(rgba(34, 30, 30, 0.705), rgba(34, 30, 30, 0.705)),
+                        url('images/tic-tac-toee.png');
 }
