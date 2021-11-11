@@ -37,6 +37,7 @@
 .title-flex{
     display: flex;
     flex-direction: column;
+    align-items: center;
     height: 400px;
     width: 90%;
     margin: auto;
@@ -94,8 +95,8 @@
     padding: 5px;
     padding-left: 10px;
     padding-right:10px;
-    border-left: 2px solid #335c67;
-    border-right: 2px solid #335c67;
+    border-left: 2px solid #9e2a2b;
+    border-right: 2px solid #9e2a2b;
     border-top: none;
     border-bottom: none;
     transition: .3s ease-in-out;
@@ -182,15 +183,29 @@
     text-decoration: none;
 }
 .left{
-    display: block;
-    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff3b0;
+}
+.left2{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
     width: 50%;
-    margin: 10px;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 20px;
+    background-color: #fff3b0;
 }
 .right{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
     height: 300px;
     width: 50%;
-    margin: 10px 10px;
+    background-color: #fff3b0;
 }
 .contact-flex{
     display: flex;
@@ -207,4 +222,24 @@
 }
 .flex{
     display: flex;
+    background-color: #fff3b0;
+}
+.myface{
+    width: 200px;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    margin: 20px;
+}
+.backgroundColor{
+    background-color: #fff3b0;
+}
+.contact-title{
+    margin: 20px;
+    background-color: #fff3b0;
+}
+.cheddar{
+    margin-top: 20px;
+    width: 200px;
+    border-radius: 150px;
+    background-color: #fff3b0;
 }
