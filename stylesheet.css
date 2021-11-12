@@ -34,6 +34,16 @@
     box-shadow: 5px 5px #e09f3e;
     
 }
+.header-flexR{
+    display: block;
+    justify-content: center;
+    height: 725px;
+    width: 90%;
+    margin: auto;
+    background-color: #fff3b0;
+    box-shadow: 5px 5px #e09f3e;
+    margin-bottom: 20px;
+}
 .title-flex{
     display: flex;
     flex-direction: column;
@@ -61,6 +71,16 @@
     margin: auto;
     font-size: 50px;
     background-color: #fff3b0;
+}
+.title-flexR{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 90%;
+    margin: auto;
+    font-size: 50px;
+    background-color: #fff3b0;
+    margin-bottom: 30px;
 }
 .title{
     margin-top: 50px;
@@ -242,4 +262,14 @@
     width: 200px;
     border-radius: 150px;
     background-color: #fff3b0;
+}
+.pdf{
+    width: 90%;
+    height: 500px;
+}
+.resume-flex{
+    display: flex;
+    justify-content: center;
+    background-color:#fff3b0;
+    /* height: 600px; */
 }
